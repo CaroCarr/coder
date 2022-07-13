@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2? familia = Arima: peso @ 200 &familia= Roboto:ital,peso@0,100;0,300;1,500 & display=swap');
+
+textBold {
+    font-weight: 600; }
+  
+  .textCenter {
+    text-align: center; }
+  
+  .textRight {
+    text-align: right; }
+  
+  .textLeft {
+    text-align: left; }
+  
+  .botonera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d0d0d;
+    padding: 4px 30px; }
+    #botonera img {
+      width: 200px; }
+      @media (min-width: 280px) and (max-width: 320px) {
+        .botonera img {
+          width: 150px; } }
+    #botonera ul {
+      display: flex; }
+      #botonera ul li {
+        list-style: none;
+        margin-right: 10px; }
+        #botonera ul li a {
+          color: #F8F5F5;
+          font-size: 1em;
+          text-decoration: none;
+          font-family: 'Roboto', sans-serif; }
+          .botonera ul li a:hover {
+            color: #F8F5F5;
+         }
+  
+  * {
+    padding: 0;
+    margin: 0; }
+  
+  h1,
+  h2,
+  h3,
+  a {
+    font-family: "Roboto", sans-serif;
+    color: #F8F5F5;
+    padding: 10px 30px; }
+  
+  h1 {
+    font-size: 2em; }
+  
+  
+  p {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4em;
+    color: #737373;
+    font-size: 1em;
+    padding: 10px 30px; }
+  
+  .text-white {
+    background-color: #0d0d0d;
+    color: #F8F5F5;
+}
+  
+  .bg-black {
+    background-color: #0d0d0d;
+    color: #F8F5F5
+}
+  
+  .btn-outline-light {
+    width: 50%;
+    height: 30px;
+    background-color: #0d0d0d;
+    color: #F8F5F5;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    border-color: #F8F5F5;
+    font-size: 1rem;
+    /****display flex****/
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  
+  /* estudio */
+  main {
+    background-color: #0d0d0d; }
+    p h2 {
+      font-size: 1.5em;
+      line-height: 2,5rem;
+      padding: 50px;
+      margin: 20px auto;
+      color: #F8F5F5; 
+      font-family: "Roboto", sans-serif; }
+  
+  footer {
+    background-color: #0d0d0d;
+    color: #F8F5F5;
+    font-size: 1em;
+    text-align: center; }

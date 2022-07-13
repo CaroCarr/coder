@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2? familia = Arima: peso @ 200 &familia= Roboto:ital,peso@0,100;0,300;1,500 & display=swap");
+p {
+  color: #F8F5F5;
+}
+
+body {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  background-color: #0d0d0d;
+  color: #F8F5F5;
+  justify-content: space-around;
+}
+
+#botonera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d0d0d;
+  padding: 3px 25px;
+}
+#botonera img {
+  width: 200px;
+}
+@media (min-width: 280px) and (max-width: 320px) {
+  #botonera img {
+    width: 150px;
+  }
+}
+#botonera img ul {
+  display: flex;
+}
+#botonera img ul li {
+  list-style: none;
+  margin-right: 7px;
+}
+#botonera img ul li a {
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: "Arima", cursiva;
+}
+#botonera img ul li a:hover {
+  color: #0d0d0d;
+  text-decoration: underline;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+a {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 10px 30px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.3em;
+  color: #737373;
+  font-size: 1em;
+  padding: 10px 30px;
+}
+
+.bgLight {
+  background-color: #ffffff;
+}
+
+.bgDark {
+  background-color: rgba(7, 7, 7, 0.8);
+}
+
+.btnXl {
+  width: 50%;
+  height: 30px;
+  background-color: white;
+  color: violet;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 50px;
+  font-size: 2rem;
+  /****display flex****/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

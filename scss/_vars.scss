@@ -1,0 +1,21 @@
+//vars
+$mainColor: #0d0d0d;
+$secondaryColor: #cccccc;
+$keyColor: white;
+$grey: #737373;
+$white:	 #F8F5F5;
+$black: #0d0d0d;
+
+p{
+	color: $white;
+}
+
+body{
+    display: flex;
+    margin: 10px;
+	padding: 10px;
+    background-color: $mainColor;
+    color: $white;
+    justify-content: space-around;
+
+}
