@@ -31,28 +31,36 @@ p{
 
 
 // backgrounds
-.bgLight{
-	background-color: #ffffff;
-}
 
-.bgDark{
-	background-color: rgba(7, 7, 7, 0.8);
+
+.bg-black{
+	background-color: $mainColor;
 }
 
 //botones 
 
-.btnXl{
+.bttn-outline-light{
 	width:50%;
 	height: 30px;
-	background-color: white;
-	color: violet;
+	background-color: $mainColor;
+	color: $white;
 	text-align: center;
 	text-decoration: none;
-	border-radius: 5px;
+	border-radius: 3px;
 	margin-left: 50px;
 	font-size: 2rem;
+
 	/****display flex****/
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+
+@media (min-width: 280px) and (max-width: 320px) {
+
+.bg-grey{
+	background-color: $grey;
+	color: $white;
+}
 }

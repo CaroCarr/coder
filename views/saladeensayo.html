@@ -5,26 +5,31 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name=" Contamos con salas de ensayo totalmente equipadas 
+    <meta name="Contamos con salas de ensayo totalmente equipadas 
     para tú comodidad"
-    content=" Salas de Ensayo Guitarra Bateria Bajo Microno Piano">
+    content="Salas de Ensayo" content="Guitarra" content="Bateria" 
+    content="Microfono" content="Piano">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
-    <!--mi css-->
-<link rel="stylesheet" a href="./css/style.css">
 
+    <!--mi css-->
+     <link rel="stylesheet" a href="./css/main.css">
 
     <title>Mad! Studio</title>
-    <link rel="shortcut icon" href="../fotosmad/favicon.jpg">
-         
+     <link rel="shortcut icon" href="../madstudio/fotosmad/favicon.jpg">
+    
 </head>  
 
-<!--inicio nav--> 
-<body id="botonera" class="bg-black">
 
-  <nav class="p-3 bg-dark text-white navbar navbar-expand-lg">
+<!--inicio nav--> 
+<body id="botonera" class="text-white bg-dark">
+
+  <nav class="p-3 bg-dark navbar navbar-expand-lg">
     <div class=></div>
     <div class="container-fluid">
       <a class="navbar-brand text-white" href="../index.html">MAD!</a>
@@ -69,9 +74,9 @@
 
 <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb text-white">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="./estudio.html">Estudio</li>
-    <li class="breadcrumb-item active" aria-current="./saladeensayo">Salas de Ensayo</li>
+    <li class="breadcrumb-item text-white"><a href="../index.html">Home</a></li>
+    <li class="breadcrumb-item active text-white" aria-current="./estudio.html">Estudio</li>
+    <li class="breadcrumb-item active text-white" aria-current="./saladeensayo">Salas de Ensayo</li>
   </ol>
 </nav>     
 <!--fin breadcrumb preguntar si necesita ruta-->
@@ -79,7 +84,7 @@
 
 
 
-<p>
+<p class="text-white">
       <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       </h4>
@@ -89,11 +94,12 @@
     
 <!-- inicio cards 1-->
 
+<main class="container-fluid">
 <div class="row-py-3">
   <div>
     <div class="card col-sm-12 col-md-4">
       <img src="../fotosmad/guitar.jpg" class="img-fluid rounded-start" alt="curso guitarra">
-      <button type="button" class="btn btn-outline-light ">Clase De Prueba</button>
+      <button type="button" class="btn bttn-outline-light text-white">Clase De Prueba</button>
 
     </div>
     <div class="col-md-4">
@@ -114,6 +120,7 @@
   <div>
     <div class="card col-sm-12 col-md-4">
       <img src="../fotosmad/bateria.jpg" class="img-fluid rounded-start" alt="curso bateria">
+      <button type="button" class="btn bttn-outline-light text-white">Clase De Prueba</button>
     </div>
     <div class="col-md-4">
       <div class="card-body">
@@ -133,6 +140,7 @@
   <div>
     <div class="card col-sm-12 col-md-4">
       <img src="../fotosmad/canto.jpg" class="img-fluid rounded-start" alt="curso técnica vocal">
+      <button type="button" class="btn bttn-outline-light text-white">Clase De Prueba</button>
     </div>
     <div class="col-md-4">
       <div class="card-body">
@@ -151,6 +159,7 @@
   <div>
     <div class="card col-sm-12 col-md-4">
       <img src="../fotosmad/piano.jpg" class="img-fluid rounded-start" alt="curso piano">
+      <button type="button" class="btn bttn-outline-light text-white">Clase De Prueba</button>
     </div>
     <div class="col-md-4">
       <div class="card-body">
@@ -169,6 +178,7 @@
   <div>
     <div class="card col-sm-12 col-md-4">
       <img src="../fotosmad/djset.jpg" class="img-fluid rounded-start" alt="curso dj">
+      <button type="button" class="btn bttn-outline-light text-white">Clase De Prueba</button>
     </div>
     <div class="col-md-4">
       <div class="card-body">
@@ -179,12 +189,45 @@
     </div>
   </div>
 </div>
+</main>
 
 <!--ends card 5-->
 
 <!--ends cards-->
 
+<!--comienzo footer-->
 
+<footer>
+  <div class="foot-container">
+    <div class="row row-cols-4">
+      <div class="col">About Us</div>
+      <div class="col">Contact Us</div>
+      <div class="col">Reservas De Sala</div>
+      <div class="col">Grabación de Discos y Demo</div>
+    </div>
+  </div>
+  
+  
+  <div class="foot-container">
+    <div class="row row-cols-4">
+      <div class="col">Carreras</div>
+      <div class="col">Clase De Prueba</div>
+      <div class="col">Estudio</div>
+      <div class="col">Salas De Ensayo</div>
+    </div>
+  </div>
+  
+  
+    <!-- Copyright -->
+    <div class="footer-container text-center">
+     <p>
+        © 2022 Copyright 
+     </p>
+      <a class="text-white" href="./views/monsterdesign.html">MonsterDesign.com.ar</a>
+    </div>
+    <!-- Copyright -->
+  
+    <!--ends footer-->
 
 
 

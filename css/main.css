@@ -1,16 +1,6 @@
 @import url('https://fonts.googleapis.com/css2? familia = Arima: peso @ 200 &familia= Roboto:ital,peso@0,100;0,300;1,500 & display=swap');
 
-textBold {
-    font-weight: 600; }
   
-  .textCenter {
-    text-align: center; }
-  
-  .textRight {
-    text-align: right; }
-  
-  .textLeft {
-    text-align: left; }
   
   .botonera {
     display: flex;
@@ -24,7 +14,8 @@ textBold {
         .botonera img {
           width: 150px; } }
     #botonera ul {
-      display: flex; }
+      display: flex;
+      background-color: #0d0d0d; }
       #botonera ul li {
         list-style: none;
         margin-right: 10px; }
@@ -34,7 +25,7 @@ textBold {
           text-decoration: none;
           font-family: 'Roboto', sans-serif; }
           .botonera ul li a:hover {
-            color: #F8F5F5;
+            color: #737373;
          }
   
   * {
@@ -53,24 +44,7 @@ textBold {
     font-size: 2em; }
   
   
-  p {
-    font-family: "Roboto", sans-serif;
-    line-height: 1.4em;
-    color: #737373;
-    font-size: 1em;
-    padding: 10px 30px; }
-  
-  .text-white {
-    background-color: #0d0d0d;
-    color: #F8F5F5;
-}
-  
-  .bg-black {
-    background-color: #0d0d0d;
-    color: #F8F5F5
-}
-  
-  .btn-outline-light {
+  .bttn-outline-light {
     width: 50%;
     height: 30px;
     background-color: #0d0d0d;
@@ -80,6 +54,8 @@ textBold {
     border-radius: 3px;
     border-color: #F8F5F5;
     font-size: 1rem;
+
+
     /****display flex****/
     display: flex;
     justify-content: center;
@@ -96,19 +72,145 @@ textBold {
       color: #F8F5F5; 
       font-family: "Roboto", sans-serif; }
 
-
+.text-white{
+  font-family: "Roboto", sans-serif;
+}
   
 footer {
     background-color: #0d0d0d;
     color: #F8F5F5;
     font-size: 1em;
     text-align: center;
+    text-decoration: none;
 }
 
- .list-unstyled{
+ .list-foot{
+        display: flex;
         font-size: 1em;
         line-height: 2rem;
         font-family: "Roboto", sans-serif;
         justify-content: flex-start;
-        
-    }
+	      align-items: flex-start;
+}
+
+.contenedor-a{
+  display: flex;
+  font-size: 1em;
+  line-height: 2rem;
+  font-family: "Roboto", sans-serif;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-color: #0d0d0d;
+  color: #F8F5F5;
+}
+
+
+.container-fluid{
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
+  background-color: #0d0d0d;
+  color: #F8F5F5;
+  font-size: 1em;
+  padding: 10px 10px;
+  align-items: flex-end;
+  justify-content: end;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+    
+@media (min-width: 280px) and (max-width: 394px) {
+.contenedor-a{
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
+  background-color: #737373;
+  color: #0d0d0d ;
+  font-size: 1em;
+  padding: 10px 20px; 
+  text-align: center;
+
+}
+
+
+
+#botonera ul li{
+  font-family: "Roboto", sans-serif;
+  background-color: #737373;
+  color: #F8F5F5;
+  padding: 1px 2px;
+  text-align: center;
+}
+
+.navbar-toggler{
+  font-family: "Roboto", sans-serif;
+  color: #F8F5F5;
+  border: solid;
+  text-align: end;
+}
+
+.navbar-toggler-icon{
+  color: #F8F5F5;
+  text-align: end;
+}
+
+#nav-nav{
+  background-color: #737373;
+  color:#F8F5F5;
+}
+
+.dropdown-menu{
+  background-color: #737373;
+  color:#F8F5F5;
+}
+
+.container-fluid{
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
+  background-color: #737373;
+  color: #F8F5F5;
+  font-size: 1em;
+  padding: 10px 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-container{
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
+  background-color: #737373;
+  color: #F8F5F5;
+  font-size: 1em;
+  padding: 10px 20px;
+  text-align: center;
+  align-items: center;
+}
+
+footer{
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
+  background-color: #737373;
+  color: #737373;
+  font-size: 1em;
+  padding: 10px 20px;
+  text-align: center;
+  align-items: center;
+
+}
+
+.list-foot{
+  display: flex;
+  font-size: 1em;
+  line-height: 2rem;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: #737373;
+  color: #F8F5F5;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+
+
+}

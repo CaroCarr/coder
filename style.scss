@@ -13,7 +13,7 @@ body{
 #botonera{
     display: flex;
     background-color: $mainColor;
-    color: $mainColor;
+    color: $white;
     img{
         width: auto;
     }
@@ -25,14 +25,14 @@ body{
     color: $white;
     justify-content: space-around;
     align-items: flex-start;
-    gap: 10px
+    gap: 10px;
 }
 
 .contenedor-a{
     background-color: $mainColor;
     text-align: start;
     color: $white;
-    gap: 10px
+    gap: 10px;
 }
 
 .bg-black{
@@ -96,12 +96,13 @@ body{
 
 }
 
-.foot{
+.foot-container{
     width: 100%;
     height: 50%;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
+    text-decoration: none;
 
 
 }
@@ -135,7 +136,7 @@ body{
 
 .navbar-toggler{
     background-color: $mainColor;
-    text-decoration: $white;
+    text-decoration: none;
 
 }
 

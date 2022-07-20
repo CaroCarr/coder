@@ -75,28 +75,31 @@ p {
   padding: 10px 30px;
 }
 
-.bgLight {
-  background-color: #ffffff;
+.bg-black {
+  background-color: #0d0d0d;
 }
 
-.bgDark {
-  background-color: rgba(7, 7, 7, 0.8);
-}
-
-.btnXl {
+.bttn-outline-light {
   width: 50%;
   height: 30px;
-  background-color: white;
-  color: violet;
+  background-color: #0d0d0d;
+  color: #F8F5F5;
   text-align: center;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 3px;
   margin-left: 50px;
   font-size: 2rem;
   /****display flex****/
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+  .bg-grey {
+    background-color: #737373;
+    color: #F8F5F5;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
