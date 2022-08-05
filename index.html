@@ -22,47 +22,46 @@
 
     <title>Mad! Studio</title>
      <link rel="shortcut icon" href="../madstudio/fotosmad/favicon.jpg">
-    
+    <script scr="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
     </head>
      
+<body class="bg-dark">
+
  <!--inicio nav--> 
-<body id="botonera" class="bg-dark text-white">
-    <nav class="p-3 bg-dark text-white navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand text-white" href="../index.html">MAD!</a>
-        <img scr="./madstudio/fotosmad/headp.svg" alt="logo">
-      </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="../views/estudio.html">Estudio de Grabación</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="../views/saladeensayo.html">Salas de Ensayo</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Clases
-              </a>
-              <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item text-white" href="../views/guitarra.html">Guitarra</a></li>
-                <li><a class="dropdown-item text-white" href="../views/piano.html">Piano</a></li>
-                <li><hr class="dropdown-divider text-white"></li>
-                <li><a class="dropdown-item text-white" href="../views/tecnica.html">Técnica Vocal</a></li>
-              </ul>
-            </li>
-            
+
+ <nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="index.html">Mad</a>
+    <button class="navbar-toggler text-white btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon text-white"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="./views/estudio.html">Estudio De Grabación
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="./views/saladeensayo.html">Salas De Ensayo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./views/guitarra.html"></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Clases
+          </a>
+          <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item text-white" href="./views/guitarra.html">Guitarra</a></li>
+            <li><a class="dropdown-item text-white" href="./views/piano.html">Piano</a></li>
+            <li><a class="dropdown-item text-white" href="./views/tecnica.html">Técnica Vocal</a></li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn button-outline-light text-white" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
     <!-- fin nav-->
 
 
@@ -100,13 +99,13 @@
  
 <!--inicio texto-->
 
-<div class="contenedor-a">
+<div class="contenedor-a bg-black">
 <div>
 <p class="text-sm-center text-md-start text-lg-end"></p id="texto_animacion">
     <h1>Hello, Mad!</h1>  
-<p class="text-md-start">Start aligned text on viewports sized MD (medium) or wider.</p>
-<p class="text-lg-start">Start aligned text on viewports sized LG (large) or wider.</p>
-<p class="text-xl-start">Start aligned text on viewports sized XL (extra-large) or wider.</p>
+<p class="text-md-start">Perfeccioná tus conocimientos</p>
+<p class="text-lg-center">O empezá de cero</p>
+<p class="text-xl-end"></p>
 </div>
 </div>   
 
@@ -116,9 +115,9 @@
     <main class="container-fluid">
       <section>
         <div class="row bg-dark">
-  <article class="col-md-6 col-lg-3">
+  <article class="col-md-6 col-lg-6">
     <img src="./fotosmad/guitar.jpg" class="d-block w-auto img-thumbnail" alt="guitarra">
-    <button type="button" class="btn bttn-outline-light ">Guitarra</button>
+    <button type="button" class="btn bttn-outline-light">Guitarra</button>
     <div class="col"></div>
     <img src="./fotosmad/bateria.jpg" class="d-block w-auto img-thumbnail" alt="bateria">
     <button type="button" class="btn bttn-outline-light">Bateria</button>
@@ -143,70 +142,85 @@
 
 <!-- inicio form-->
 <div class="forms bg-dark">
-<div class="col-sm-12 col-md-6 col-lg-3">
-  <div class="col">
+<div class="row">
+  <div class="col-sm-12 col-md-6 col-lg-3 w-40 p-3">
+      <form>
     <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
   </div>
-  <div class="col">
+  <div class= "w-50 p-3 mb-2">
     <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
   </div>
-  <div class="forms">
-    <textarea class="forms" placeholder="Comentarios" id="floatingTextarea2" style="height: 100px"></textarea>
+  <div>
+    <textarea class="w-50" placeholder="Comentarios" id="floatingTextarea2" style="height: 100px"></textarea>
     <label for="floatingTextarea2"></label>
-    <button type="button" class="btn bttn-outline-light">Enviar</button>
-    </article>
+    <button type="button" class="btn bttn-outline-light p-3">Enviar</button>
+    </form>
+         <img src="./fotosmad/musica.jpg" class=" fotop img-thumbnail w-40" alt="perrito">
 </div>
 </div>
 </div>
 
 <!--ends form-->
 
-
-<div class="fotop bg-dark">
-<section class="py-3">
-<div class="row">
-  <article class="col-sm-12 col-md-12 col-lg-8">
-    <img src="./fotosmad/musica.jpg" class="img-thumbnail w-50" alt="perrito">
-</article>
-</div>
-</div>
-
-<div class="iframe bg-dark">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.553022770097!2d-66.33786248509635!3d-33.30435479741459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d4395597fa7c4b%3A0x3c4d72252522de46!2sRivadavia%20581%2C%20D5700%20San%20Luis!5e0!3m2!1ses-419!2sar!4v1654546386923!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="iframe bg-dark img-thumbnail w-100">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.553022770097!2d-66.33786248509635!3d-33.30435479741459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d4395597fa7c4b%3A0x3c4d72252522de46!2sRivadavia%20581%2C%20D5700%20San%20Luis!5e0!3m2!1ses-419!2sar!4v1654546386923!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
 </div>
 
 
 
 
   <!--comienzo footer-->
-
-  <div class="foot-container bg-dark text-white">
-    <div class="row row-cols-4">
-      <div class="col">About Us</div>
-      <div class="col">Contact Us</div>
-      <div class="col">Reservas De Sala</div>
-      <div class="col">Grabación de Discos y Demo</div>
-    </div>
-  </div>
+  <div class="text-center text-lg-start border border-white bg-dark">
+  <div class="text-white">
+    <!-- Grid container -->
+    <div class="footer-container">
+          <p class="text-uppercase text-white">Mundo Mad</p>
+           <ul class="list-unstyled">
+            <li>
+              <a href="../index.html" class="text-white">About us</a>
+            </li>
+            <li>
+              <a href="../index.html" class="text-white">Alumnos</a>
+            </li>
+            <li>
+              <a href="../index.html" class="text-white">Reservas de Sala</a>
+            </li>
+            <li>
+              <a href="../index.html" class="text-white">Grabación de Discos y Demo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        
+      <div class="text-center text-lg-start border border-white bg-dark">
+        <div class="text-white">
+          <ul class="footer-container list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Carreras</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Clase de Prueba</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Contact us</a>
+            </li>
+          </ul>
+        </div>
+  
 
  
 
-  <div class="foot-container text-white">
-    <div class="row row-cols-4">
-      <div class="col">Carreras</div>
-      <div class="col">Clase De Prueba</div>
-      <div class="col">Estudio</div>
-      <div class="col">Salas De Ensayo</div>
-    </div>
-  </div>
-
-
-    <!-- Copyright -->
+  
+ <!-- Copyright -->
+<footer>
+   
     <div class="footer-container text-white text-center">
-     <p>
-        © 2022 Copyright 
-     </p>
-      <a class="text-white" href="./views/monsterdesign.html">MonsterDesign.com.ar</a>
+        <p>Seguinos En Nuestras Redes</p>
+        <img scr="./fotosmad/facebook.png" class="bg-dark logo1" alt="logo facebook"><a href="Facebook.com">FB</a>
+        <img scr="./fotosmad/ins.jpg" class="bg-dark logo2" alt="logo instagram"><a href="Instagram.com">IG</a>
+        <p>Created by</p>
+        <a class="text-white" href="./views/error.html">MonsterDesign.com.ar</a>
     </div>
     <!-- Copyright -->
   </footer>
