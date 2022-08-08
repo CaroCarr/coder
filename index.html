@@ -28,7 +28,34 @@
 <body class="bg-dark">
 
  <!--inicio nav--> 
-
+ <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="./index.html">MAD!</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="./views/estudio.html">Estudio De Grabación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="./views/saladeensayo.html">Salas De Ensayo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Clases
+          </a>
+          <ul class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item bg-dark text-white" href="./views/guitarra.html">Guitarra</a></li>
+            <li><a class="dropdown-item bg-dark text-white" href="./views/piano.html">Piano</a></li>
+            <li><a class="dropdown-item bg-dark text-white" href="./views/tecnica.html">Técnica Vocal</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
  
 
 
@@ -110,12 +137,12 @@
 <!-- inicio form-->
 <div class="forms bg-dark">
 <div class="row">
-  <div class="col-sm-12 col-md-6 col-lg-3 w-40 p-3">
+  <div class="col-sm-12 col-md-6 col-lg-3 p-3">
       <form>
-    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+    <input type="text" class="form-control m-10" placeholder="Nombre" aria-label="First name">
   </div>
-  <div class= "w-50 p-3 mb-2">
-    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+  <div>
+    <input type="text" class="form-control m-7" placeholder="Apellido" aria-label="Last name">
   </div>
   <div>
     <textarea class="w-50" placeholder="Comentarios" id="floatingTextarea2" style="height: 100px"></textarea>
@@ -129,21 +156,25 @@
 
 <!--ends form-->
 
-<div class="iframe bg-dark img-thumbnail w-100">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.553022770097!2d-66.33786248509635!3d-33.30435479741459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d4395597fa7c4b%3A0x3c4d72252522de46!2sRivadavia%20581%2C%20D5700%20San%20Luis!5e0!3m2!1ses-419!2sar!4v1654546386923!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+ <div>
+   <p class="text-white">Encontrabos en...</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.553022770097!2d-66.3378624850964!3d-33.30435479741459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d4395597fa7c4b%3A0x3c4d72252522de46!2sRivadavia%20581%2C%20D5700%20San%20Luis!5e0!3m2!1ses!2sar!4v1659922829136!5m2!1ses!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
     </iframe>
-</div>
+  </div>
 
 
-
-
-  <!--comienzo footer-->
-  <div class="text-center text-lg-start border border-white bg-dark">
-  <div class="text-white">
+<!--comienzo footer-->
+<footer class="text-center footer-container text-lg-start border border-white mt-xl-5 pt-4">
+  <div class="p-3 mb-2 bg-black text-white"></div>
     <!-- Grid container -->
-    <div class="footer-container">
-          <p class="text-uppercase text-white">Mundo Mad</p>
-           <ul class="list-unstyled">
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 container-ft">
+          <p class="text-uppercase mb-4 text-white">Mundo Mad</p>
+
+          <ul class="list-unstyled mb-4">
             <li>
               <a href="../index.html" class="text-white">About us</a>
             </li>
@@ -154,15 +185,17 @@
               <a href="../index.html" class="text-white">Reservas de Sala</a>
             </li>
             <li>
-              <a href="../index.html" class="text-white">Grabación de Discos y Demo</a>
+              <a href="../index.html" class="text-white">Grabación de Discos</a>
             </li>
           </ul>
         </div>
-      </div>
-        
-      <div class="text-center text-lg-start border border-white bg-dark">
-        <div class="text-white">
-          <ul class="footer-container list-unstyled">
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <p class="text mb-4"></p>
+
+          <ul class="list-unstyled">
             <li>
               <a href="#!" class="text-white">Carreras</a>
             </li>
@@ -174,27 +207,40 @@
             </li>
           </ul>
         </div>
-  
 
- 
+        <div class="container-ft">
+           <ul>
+             <li>
+             <a href="#!" class="text-white">Seguinos en Nuestras Redes</a>
+             </li>
+             <li>
+              <img src="./fotosmad/facebook.png" class="w-1" alt="logo Facebook"></li>
+              <a href="https://www.facebook.com/"></a>
+              </li>
+            <li>
+              <img src="./fotosmad/instagram.png" class="w-1" alt="logo instagram">
+             <a href="https://www.instagram.com/"></a>
+            </li>
+            </ul>
+            </div>
+        <!--Grid column-->
 
-  
- <!-- Copyright -->
-<footer>
-   
-    <div class="footer-container text-white text-center">
-        <p>Seguinos En Nuestras Redes</p>
-        <img scr="./fotosmad/facebook.svg" class="bg-dark logo1" alt="logo facebook"><a href="https://es-la.facebook.com/"></a>
-        <img scr="./fotosmad/ins.jpg" class="bg-dark logo2" alt="logo instagram"><a href="https://www.instagram.com/"></a>
-        <p>Created by</p>
-        <a class="text-white" href="./views/error.html">MonsterDesign.com.ar</a>
+
+    
+
+    <!-- Copyright -->
+    <div class="text-center p-3 border-top border-white footer-cont">
+    
+      <a class="text-white" href="./views/monsterdesign.html">MonsterDesign.com.ar</a>
     </div>
     <!-- Copyright -->
   </footer>
-  
+
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
 
   </body>
 </html>
